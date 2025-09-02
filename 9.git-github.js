@@ -36,4 +36,4 @@
 
 // !merging
 //* git pull <branch_name>
-//* git merge <branch_name> 
+//* git merge <branch_name>
