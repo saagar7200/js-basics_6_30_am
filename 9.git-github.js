@@ -34,7 +34,6 @@
 //* git branch -d <branch_name>  -> delete  branch locally
 
 
-// changes from new branch
-// changes from new branch
-// changes from new branch
-// changes from new branch
+// !merging
+//* git pull <branch_name>
+//* git merge <branch_name>
