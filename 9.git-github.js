@@ -10,10 +10,24 @@
 //*  git init => initialize git repo locally (project folder)
 //* git clone <remote_repo_url>
 
+
+//! connect with remote repository
+//* git remote -v -> list remote repositories
+//* git remote add origin <repo_url> -> connect local and remote repositories
+//* git remote remove origin  => removes remote repo
+
 //! Workflow
 //TODO: Working Directory [WD]  -> Staging Area -> Local Repository -> Remote Repository
 
 //* git status
 //* git add <file_path> -> add single file to staging area / stage single file
-//* git commit -m "<commit_message>"
+//* git add . -> add all file to staging area / stage all file
+//* git commit -m "<commit_message>" -> push stage changes to local repo
+// * git push origin <branch_name>  -> push local repo to remote repo
+
+
+//* brnach
+// * git branch    -> list all available branches
+// * git branch <branch_name>  -> create new branch
+// * git checkout <branch_name>  -> switch branch
 
