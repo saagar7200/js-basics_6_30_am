@@ -37,3 +37,7 @@
 // !merging
 //* git pull <branch_name>
 //* git merge <branch_name>
+
+//! Stash 
+// * git stash  -> store current changes to stash
+// *  git stash pop -> apply stashed chnages to WD.
