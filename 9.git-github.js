@@ -33,3 +33,8 @@
 //* git checkout -b <new_branch_name> =>  crate new branch + switch
 //* git branch -d <branch_name>  -> delete  branch locally
 
+
+// changes from new branch
+// changes from new branch
+// changes from new branch
+// changes from new branch
