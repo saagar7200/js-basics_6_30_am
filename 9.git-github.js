@@ -26,7 +26,7 @@
 // * git push origin <branch_name>  -> push local repo to remote repo
 // * git pull origin <branch_name>
 
-//* brnach 
+//! brnach 
 //* git branch    -> list all available branches
 //* git branch <branch_name>  -> create new branch
 //* git checkout <branch_name>  -> switch branch
