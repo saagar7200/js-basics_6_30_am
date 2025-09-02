@@ -41,3 +41,7 @@
 //! Stash 
 // * git stash  -> store current changes to stash
 // *  git stash pop -> apply stashed chnages to WD.
+
+// git revert <commit_id>
+// git revert --abort
+// 
