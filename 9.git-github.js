@@ -24,10 +24,12 @@
 //* git add . -> add all file to staging area / stage all file
 //* git commit -m "<commit_message>" -> push stage changes to local repo
 // * git push origin <branch_name>  -> push local repo to remote repo
+// * git pull origin <branch_name>
 
-
-//* brnach
-// * git branch    -> list all available branches
-// * git branch <branch_name>  -> create new branch
-// * git checkout <branch_name>  -> switch branch
+//* brnach 
+//* git branch    -> list all available branches
+//* git branch <branch_name>  -> create new branch
+//* git checkout <branch_name>  -> switch branch
+//* git checkout -b <new_branch_name> =>  crate new branch + switch
+//* git branch -d <branch_name>  -> delete  branch locally
 
