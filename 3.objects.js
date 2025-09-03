@@ -1,99 +1,112 @@
 
 
-// let bottle_name = ''
-// let bottle_capacity  = '1000ml'
+// // let bottle_name = ''
+// // let bottle_capacity  = '1000ml'
 
-// let bottle = {
-//     name: '',
-//     capacity :'100ml',
-//     colour:[]
-// }
+// // let bottle = {
+// //     name: '',
+// //     capacity :'100ml',
+// //     colour:[]
+// // }
 
-// object literal -> {}
+// // object literal -> {}
+
+// // let person = {
+// //     name:'jhon Doe'
+// // }
+
+// // new keyword (object constructor)\
+
+// // let product = new Object()
+
+
 
 // let person = {
-//     name:'jhon Doe'
+//     name:'jhon Doe',
+//     password:'1234r',
+//     gender:''
 // }
 
-// new keyword (object constructor)\
+// // console.log(person.address.district)
+// // console.log(person['address']['district'])
 
-// let product = new Object()
+// //! adding properties
+// // person.name = 'abc'
+// // product.name = 'xyz'
+// person.email = 'johndoe@gmail.com'
+
+// //! reading/accessing values
+// //* dot notatiion
+// const person_name = person.email
+// // console.log(person.full name)
+// console.log(person.email)
+
+// //* brancket notation
+// console.log(person['name'])
+
+// let read_key = 'email'
+
+// // console.log(person.read_key) // undefined
+// console.log(person[read_key])
 
 
-
-let person = {
-    name:'jhon Doe',
-    password:'1234r',
-    gender:''
-}
-
-// console.log(person.address.district)
-// console.log(person['address']['district'])
-
-//! adding properties
+// //! modify properties
 // person.name = 'abc'
-// product.name = 'xyz'
-person.email = 'johndoe@gmail.com'
+// console.log(person)
 
-//! reading/accessing values
-//* dot notatiion
-const person_name = person.email
-// console.log(person.full name)
-console.log(person.email)
-
-//* brancket notation
-console.log(person['name'])
-
-let read_key = 'email'
-
-// console.log(person.read_key) // undefined
-console.log(person[read_key])
+// person['name'] = 'xyz'
 
 
-//! modify properties
-person.name = 'abc'
-console.log(person)
-
-person['name'] = 'xyz'
-
-
-console.log(person)
+// console.log(person)
 
 
 
-// delete
+// // delete
 
-delete person.read_key
+// delete person.read_key
 
-console.log(person)
-
-
-console.log(person.hasOwnProperty('age'))
-
-if(!person.hasOwnProperty('age')){
-    person.age = 30
-}
-
-// 
-console.log(person)
+// console.log(person)
 
 
-// 
-console.log(Object.keys(person))
-console.log(Object.values(person))
-console.log(Object.entries(person)) //[ [name, xyz],[]]
+// console.log(person.hasOwnProperty('age'))
 
-const entries = Object.entries(person)
+// if(!person.hasOwnProperty('age')){
+//     person.age = 30
+// }
 
-console.log(entries)
-console.log(Object.fromEntries(entries))
+// // 
+// console.log(person)
 
 
-const obj = {
-    name:'xyz',
-    greet:function(){
-            console.log('good morning')
-    }
-}
+// // 
+// console.log(Object.keys(person))
+// console.log(Object.values(person))
+// console.log(Object.entries(person)) //[ [name, xyz],[]]
 
-obj.greet()
+// const entries = Object.entries(person)
+
+// console.log(entries)
+// console.log(Object.fromEntries(entries))
+
+
+// const obj = {
+//     name:'xyz',
+//     greet:function(){
+//             console.log('good morning')
+//     }
+// }
+
+// obj.greet()
+
+let bottle = {
+  name: "abc",
+  capacity: "100ml",
+  colour: "red",
+};
+
+
+let key = "capacity";
+// dot , bracket
+console.log(bottle.name);
+console.log(bottle["capacity"]);
+console.log(bottle[key]) // 100ml , undefined
