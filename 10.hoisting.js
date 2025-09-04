@@ -79,3 +79,4 @@ func2()
 // 1. ReferenceError
 // 2. TypeError
 // 3. SyntaxError
+
