@@ -84,26 +84,25 @@ console.log(Calculator.add(12, 45));
 class MakeCofee {
   constructor() {}
   start() {
-      // turn on machine
-      this.#turn_on_machine()
-      this.#add_cofee()
-      this.#add_sugar()
-      console.log('cofee is ready')
+    // turn on machine
+    this.#turn_on_machine();
+    this.#add_cofee();
+    this.#add_sugar();
+    console.log("cofee is ready");
   }
 
-    #turn_on_machine() {
-      console.log('turning on machine')
+  #turn_on_machine() {
+    console.log("turning on machine");
   }
 
-    #add_cofee() {
-      console.log('adding cofee')
+  #add_cofee() {
+    console.log("adding cofee");
   }
 
-    #add_sugar() {
-      console.log('adding sugar')
-      
+  #add_sugar() {
+    console.log("adding sugar");
   }
 }
 
-const make_cofee = new MakeCofee()
-make_cofee.start()
+const make_cofee = new MakeCofee();
+make_cofee.start();
