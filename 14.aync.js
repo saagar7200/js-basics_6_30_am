@@ -47,14 +47,14 @@ const getOders = (user, callback) => {
   }, 2000);
 };
 
-const getOderDetail = (order, callback) => {
+const getOderDetail = (order) => {
   setTimeout(() => {
     const orders = {
       id: order.id,
       total_amt: order.total_amt,
     };
     console.log("order details", orders);
-    callback(null,orders);
+    callback(null, orders);
   }, 1000);
 };
 
